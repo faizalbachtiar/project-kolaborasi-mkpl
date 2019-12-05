@@ -1,5 +1,8 @@
 <?php
 
+if(isset($_POST['cetak'])) {
+ob_start();
+ob_stop();
 
 
 
