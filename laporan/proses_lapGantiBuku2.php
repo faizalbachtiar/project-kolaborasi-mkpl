@@ -2,7 +2,7 @@
 
 if(isset($_POST['cetak'])) {
 ob_start();
-ob_clean();
+ob_stop();
 
 
 include_once("../Database/koneksi.php");
