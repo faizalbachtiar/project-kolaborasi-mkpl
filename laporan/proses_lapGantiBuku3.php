@@ -1,8 +1,6 @@
 <?php
 
-if(isset($_POST['cetak'])) {
-ob_start();
-ob_clean();
+
 
 
 include_once("../Database/koneksi.php");
